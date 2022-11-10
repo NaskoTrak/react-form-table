@@ -1,0 +1,67 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputFieldContainer {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.inputFieldContainer:hover {
+  border: 1px solid #008CBA;
+  box-shadow: 0 1px 26px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.inputFieldContainer input {
+  border: none;
+  outline: none;
+}
+
+.toolTipContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.formLabel {
+  margin-right: 1vw;
+  display: inline-block;
+}
+
+.signInButton {
+  background-color: white; 
+  color: black; 
+  padding: 10px 20px;
+  border: 1px solid black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 0.5vh;
+  margin-bottom: 1vh;
+  cursor: pointer;
+}
+
+.signInButton:hover {
+  background-color: #008CBA;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+@media only screen and (max-width: 800px) {
+  .formContainer {
+    width: 100vw;
+  }
+
+  .inputFieldContainer {
+    width: 100vw;
+  }
+
+}
